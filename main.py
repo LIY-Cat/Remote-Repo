@@ -9,4 +9,4 @@ if num1%2==0 :
     print(num1,"은 짝수입니다. ")
 
 else :
-    print(num1,"은 홀수 입니다. ")
+    print(num1,"은 홀수 입니다.12 ")
