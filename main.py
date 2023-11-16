@@ -10,3 +10,6 @@ if num1%2==0 :
 
 else :
     print(num1,"은 홀수 입니다.12 ")
+
+    print(num1,"은 홀수 입니다. 21")
+
