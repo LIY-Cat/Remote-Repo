@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualization</title>
+</head>
+<body>
+    <h1>Data Visualization</h1>
+
+    <h2>Gender Distribution</h2>
+    <img src="data:image/png;base64,{{ gender_plot_url }}" alt="Gender Distribution">
+
+    <h2>Age Category Distribution</h2>
+    <img src="data:image/png;base64,{{ age_cat_plot_url }}" alt="Age Category Distribution">
+
+    <h2>Race Distribution</h2>
+    <img src="data:image/png;base64,{{ race_plot_url }}" alt="Race Distribution">
+
+    <h2>Priors Count Distribution</h2>
+    <img src="data:image/png;base64,{{ priors_count_plot_url }}" alt="Priors Count Distribution">
+</body>
+</html>
